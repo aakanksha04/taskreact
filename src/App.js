@@ -47,8 +47,9 @@ export default class App extends Component {
             <Cards data={data} />
             <CountryPicker handleCountryChange={this.handleCountryChange} />
             <div className={styles.source}>
-              Source:{' '}
-              <a href="https://covid19api.com/">https://covid19api.com/</a>
+              <h5>Developed by: Aakanksha Khatri</h5>
+              <a href="https://www.linkedin.com/in/aakanksha-khatri-11b6241a4/">LinkedIn </a> | 
+              <a href="https://github.com/aakanksha04 ">GitHub </a>
             </div>
           </div>
         )}
